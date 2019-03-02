@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GoalsVC.swift
 //  goalpost-app
 //
 //  Created by Christopher Parr on 22/02/2019.
@@ -8,13 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GoalsVC: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func addGoalBtnWasPressed(_ sender: Any) {
+        print("Button was pressed")
+    }
+    
 }
 
